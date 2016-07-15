@@ -43,15 +43,20 @@ The following barcode types are currently supported:
 
 ### iOS
 
-* QR_CODE
-* DATA_MATRIX
-* UPC_E
-* UPC_A
-* EAN_8
-* EAN_13
-* CODE_128
-* CODE_39
-* ITF
+* Code 39
+* Code 93
+* Code 128
+* Codabar
+* EAN-8
+* EAN-13
+* UPC-A
+* UPC-E
+* Interleaved 2 of 5 (ITF)
+* Industrial 2 of 5 (Code 2 of 5 Industry, Standard 2 of 5, Code 2 of 5)
+* ITF-14 
+* QRCode
+* DataMatrix
+* PDF417
 
 `success` and `fail` are callback functions. Success is passed an object with data, type and cancelled properties. Data is the text representation of the barcode data, type is the type of barcode detected and cancelled is whether or not the user cancelled the scan.
 
